@@ -12,14 +12,10 @@ depends=('w3m' 'imagemagick' 'terminus-font' 'neofetch' 'faenza-icon-theme' 'arc
 source=("git+$url.git")
 md5sums=('SKIP')
 install=$pkgname.install
-
-package() {
     
 package() {
 	install -d $pkgdir/etc
-	cp -r $srcdir/gnome-revenge-desktop/skel_new $pkgdir/etc
-}
-
+	cp -r $srcdir/gnome-revenge-desktop/shared/skel_new $pkgdir/etc
 }
 
 # -*- mode: bash;-*-
