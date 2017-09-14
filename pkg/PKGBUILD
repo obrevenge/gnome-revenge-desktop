@@ -1,7 +1,7 @@
 # Maintainer: Jody James <ajjamesobr@gmail.com>
 
 pkgname=gnome-revenge-desktop
-pkgver=1.02
+pkgver=1.04
 pkgrel=1
 pkgdesc="Desktop Meta-Package for Revenge OS gnome desktop"
 arch=('any')
